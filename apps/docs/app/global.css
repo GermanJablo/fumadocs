@@ -4,6 +4,9 @@
 @import 'fumadocs-twoslash/twoslash.css';
 @import 'fumadocs-openapi/css/preset.css';
 @plugin 'tailwindcss-animate';
+@plugin "@tailwindcss/typography" {
+  classname: wysiwyg;
+}
 
 @theme {
   --spacing-fd-container: 1436px;
